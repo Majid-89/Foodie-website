@@ -1,0 +1,94 @@
+@media (max-width : 991px) {
+
+
+    /*=====Header section=====*/
+    .navigation-wrap {
+        background-color: var(--white-color);
+        text-align: center;
+
+    }
+
+    .navigation-wrap img {
+        height: 3.925rem;
+        width: 120px;
+
+    }
+
+    .navigation-wrap i {
+        font-size: 40px;
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.85rem;
+    }
+
+    .navigation-wrap .main-btn {
+        margin-left: -12px;
+    }
+
+    /*=====Top bannner=====*/
+    .top-banner {
+        padding: 9.875rem 0 9.375rem;
+    }
+
+    .testimonail-section .carousel-item p {
+        padding: 0;
+    }
+}
+
+@media (max-width : 775px) {
+
+    /*=====Custom css=====*/
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    .testimonail-section .carousel-item {
+        padding: 12rem 3.125rem;
+    }
+
+    .testimonail-section .carousel-item p {
+        padding: 0;
+    }
+
+    /*=======top bannner=======*/
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    /*=====Story section=====*/
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    /*=====newsletter section=====*/
+    .newsletter {
+        width: 75%;
+
+    }
+
+    .newsletter .main-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /*=====Footer-section=====*/
+
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 0.7rem;
+    }
+}
+
+@media (max-width : 450px) {
+    .testimonail-section .carousel-item {
+        padding: 14rem 0;
+
+    }
+}
